@@ -1,0 +1,6 @@
+name: Lobby
+version: ${project.version}
+main: xyz.liblnd.lobby.Lobby
+api-version: 1.16
+authors: [Artuto]
+website: https://liblnd.xyz

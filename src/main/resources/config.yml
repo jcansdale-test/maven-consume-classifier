@@ -1,0 +1,7 @@
+#      LobbyCore Config
+
+OnSpawnJoinLocation:
+
+Messages:
+  Join: '&e%player% has joined the server'
+  Leave: '&e%player% has left the server'
