@@ -7,6 +7,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: mvn clean package -s settings.xml
+    - run: mvn clean package -s settings.xml --no-transfer-progress
       env:
         GITHUB_TOKEN: ${{ github.token }}
