@@ -1,2 +1,1 @@
-# Lobby Core
-Dedicated Lobby plugin
+# Test installing dependency with classifier
