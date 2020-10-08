@@ -61,7 +61,7 @@ jobs:
       - name: Install packages
         run: mvn install --no-transfer-progress
         env:
-          GITHUB_TOKEN: ${{ secrets.READ_PACKAGES_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Exec package
         run: mvn exec:java -D exec.mainClass=${{ env.GROUP_ID }}.${{ env.CLASS_NAME }} --no-transfer-progress
