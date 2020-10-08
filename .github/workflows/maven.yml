@@ -1,5 +1,7 @@
 on:
   push:
+  watch:
+    types: [started]
 
 jobs:
   build:
